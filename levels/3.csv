@@ -1,3 +1,5 @@
 position,width,height,inverted
 500,100,100,True
+500,100,100,False
 700,100,100,True
+700,100,100,False
