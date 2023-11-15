@@ -39,7 +39,6 @@ class GameScreen(BaseScreen):
         self.obstacles.update()
         
         self.timer += self.clock.get_time() / 1000
-        print(self.timer)
         self.timebox.text = f"Time: {int(self.timer)}"
 
         if pygame.sprite.spritecollide(self.bird, self.obstacles, dokill=False, collided=pygame.sprite.collide_mask):
